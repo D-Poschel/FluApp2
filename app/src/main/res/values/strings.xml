@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FluApp</string>
+    <string name="checkinTitle">Select any symptoms you have been experiencing</string>
+    <string-array name="symp_list">
+        <item>Coughing</item>
+        <item>Sneezing</item>
+        <item>Weasing</item>
+        <item>Headache</item>
+        <item>Fever</item>
+        <item>Vomiting</item>
+        <item>Diarrea</item>
+        <item>S A D N E S S</item>
+    </string-array>
+    <string name="Coughing">Coughing</string>
+    <string name="Sneezing">Sneezing</string>
+    <string name="Weasing">Weasing</string>
+    <string name="Headache">Headache</string>
+    <string name="Fever">Fever</string>
+    <string name="Vomiting">Vomiting</string>
+    <string name="Diarrea">Diarrea</string>
+    <string name="sad">S A D N E S S</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

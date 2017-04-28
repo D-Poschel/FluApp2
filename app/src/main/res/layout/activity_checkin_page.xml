@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.daniel.fluapp.CheckinPage"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkinTitle"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <CheckBox android:id="@+id/symp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Coughing"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/symp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Sneezing"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/symp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Weasing"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/symp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Headache"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/symp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Diarrea"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/symp6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Fever"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/symp7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Vomiting"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox android:id="@+id/symp8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sad"
+            android:onClick="onCheckboxClicked"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"/>
+    </LinearLayout>
+
+</LinearLayout>
